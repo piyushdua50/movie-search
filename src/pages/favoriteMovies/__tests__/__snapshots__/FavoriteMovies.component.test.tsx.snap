@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the FavoriteMovies screen correctly 1`] = `
+<div>
+  <div
+    class="favoriteContainer"
+  >
+    <div
+      class="headerContainer"
+    >
+      <h1
+        class="headerTitle"
+      >
+        Home
+      </h1>
+      <h1
+        class="headerTitle"
+      >
+        Favorites
+      </h1>
+    </div>
+    <div
+      class="movieListContainer"
+    >
+      <div
+        class="movieContainer"
+      >
+        <img
+          alt="Kuch Tum Kaho Kuch Hum Kahein"
+          class="imgContainer"
+          src="https://m.media-amazon.com/images/M/MV5BNGVhMjBhYmQtMDFmZC00Mjc2LWIwZTYtMmJiY2ZkNjM4N2FlXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg"
+        />
+        <span
+          class="movieNameContainer"
+        >
+          Kuch Tum Kaho Kuch Hum Kahein
+        </span>
+        <div
+          class="movieInfoContainer"
+        >
+          <span
+            class="movieInfo"
+          >
+            Year
+            : 
+            2002
+          </span>
+          <span
+            class="movieInfo"
+          >
+            Type
+            : 
+            movie
+          </span>
+        </div>
+        <div
+          class="movieFavoriteInfo"
+          role="button"
+        >
+          Favorite
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

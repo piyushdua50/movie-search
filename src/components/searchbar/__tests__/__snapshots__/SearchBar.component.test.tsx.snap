@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the SearchBar correctly 1`] = `
+<div>
+  <div
+    class="searchContainer"
+  >
+    <div
+      class="searchInputContainer"
+    >
+      <input
+        class="searchInput"
+        placeholder="Enter movie name to search......"
+        type="text"
+        value=""
+      />
+      <select
+        class="searchInputButton"
+      >
+        <option
+          value="ALL"
+        >
+          ALL
+        </option>
+        <option
+          value="movie"
+        >
+          Movies
+        </option>
+        <option
+          value="series"
+        >
+          Series
+        </option>
+        <option
+          value="episode"
+        >
+          Episodes
+        </option>
+      </select>
+    </div>
+    <button
+      class="searchButton"
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;

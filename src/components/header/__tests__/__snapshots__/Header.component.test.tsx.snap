@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the Header correctly 1`] = `
+<div>
+  <div
+    class="headerContainer"
+  >
+    <h1
+      class="headerTitle"
+    >
+      Home
+    </h1>
+    <h1
+      class="headerTitle"
+    >
+      Favorites
+    </h1>
+  </div>
+</div>
+`;

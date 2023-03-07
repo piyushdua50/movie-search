@@ -1,0 +1,42 @@
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.searchInputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 0px;
+    margin: 50px 0px;
+}
+
+.searchInput {
+    width: 75%;
+    height: 38px;
+    border-right: none;
+    padding: 0 10px;
+}
+
+.searchInputButton {
+    padding: 10px 12px;
+    width: 15%;
+    height: 42px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.searchButton {
+    width: 10%;
+    height: 42px;
+    margin: 50px 0px;
+    color: white;
+    background-color: rgb(68, 68, 109);
+}
